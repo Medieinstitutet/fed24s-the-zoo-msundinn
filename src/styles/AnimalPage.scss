@@ -1,0 +1,57 @@
+.animal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px; 
+  padding: 20px;
+
+  li {
+    list-style-type: none;
+    height: 100%;
+  }
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
+
+.h1-image{
+    width: 300px;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.animal-card {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: $card-color;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: solid rgb(50, 97, 73) 1px;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h2 {
+    margin: 10px 0 10px;
+  }
+
+  p {
+    margin: 0;
+    flex-grow: 1;
+  }
+}
+
+.animal-card-link {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: block;
+}

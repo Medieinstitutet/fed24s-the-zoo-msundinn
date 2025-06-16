@@ -1,0 +1,99 @@
+.detailed-animal{
+    background-color: $card-color;
+    display: flex;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 20px;
+    gap: 20px;
+
+
+}
+
+.animal-img{
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    border-radius: 10px;
+}
+
+.animal-details{
+
+    h1{
+        margin: 0;
+    }
+
+}
+
+.status{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-btn {
+  align-self: center;
+  width: 150px;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  &:disabled {
+    background-color: #656060d6;
+
+    cursor: not-allowed;
+  }
+
+  &:active {
+  transform: scale(0.95);
+  }
+
+}
+
+.soon-hungry-msg {
+  color: rgb(222, 63, 14);
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  align-self: center;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+
+.animal-image-btn{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(187 204 187 / 54%);
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+@media (max-width: 830px) {
+  
+ .detailed-animal{
+  display: flex;
+  flex-direction: column;
+  
+ }
+
+ .animal-img{
+    align-self: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+ }
+
+}

@@ -1,0 +1,17 @@
+.base-layout{
+  max-width: 100%;
+  margin: 0 auto; 
+  background-color: rgb(211, 219, 214);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/public/plain-background-7102744_1280.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+ 
+}

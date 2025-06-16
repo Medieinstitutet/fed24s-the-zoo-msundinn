@@ -1,0 +1,11 @@
+.nav-links{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+
+    li a{
+        text-decoration: none;
+        color: $header-font-color;
+        font-size: 20px;
+    }
+}
