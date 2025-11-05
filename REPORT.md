@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\hooks\useAnimals.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller samtliga krav för betyget VG. Den använder en router med layouts och error-element korrekt, hanterar bildlänkar, och gör användning av reducers och context för state-hantering istället för props. Djuren kan matas, och tiden lagras samt återställas. Användaren ser diskret status för djuren på översiktssidan. Det finns dessutom subtila animeringar på knappar och sidladdningar.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller kraven för betyg G. Projektet visar effektiv användning av routing för att visa olika sidor och använder layouter och child-routes korrekt. Studenten har skapat en fungerande lösning för att mata djur och hanterar trasiga bild-länkar. Styling har hanterats med SCSS vilket uppfyller kravet på att använda en teknik utöver vanlig CSS.
 
 💡 **Förbättringsförslag:**  
-Koden är välstrukturerad och följer moderna tekniker för React-utveckling. Det finns några förbättringsmöjligheter vad gäller kodläsbarhet och underhållbarhet, exempelvis att dokumentera komponenters prop-typer tydligare med JSDoc, eller att optimera anropslogik i custom hooks för bättre återanvändbarhet. Inga större förbättringar krävs dock för att uppnå det önskade betyget.
+För att nå betyget VG behöver studenten implementera context för att hantera delning av data i komponenterna och använda reducers istället för state för tillståndshantering. Det finns också utrymme för att införa mer subtila animeringar vid knapptryck och sidladdningar för att uppfylla kravet på subtila animeringar.
