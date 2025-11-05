@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\hooks\useAnimals.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller kraven för betyg G. Projektet visar effektiv användning av routing för att visa olika sidor och använder layouter och child-routes korrekt. Studenten har skapat en fungerande lösning för att mata djur och hanterar trasiga bild-länkar. Styling har hanterats med SCSS vilket uppfyller kravet på att använda en teknik utöver vanlig CSS.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för betyg VG med korrekt användning av routing, context API, hooks, användning av reducers, och djupgående styling med SCSS.
 
 💡 **Förbättringsförslag:**  
-För att nå betyget VG behöver studenten implementera context för att hantera delning av data i komponenterna och använda reducers istället för state för tillståndshantering. Det finns också utrymme för att införa mer subtila animeringar vid knapptryck och sidladdningar för att uppfylla kravet på subtila animeringar.
+Undersök och bekräfta logiken för återställning av matstatus. Lägg till subtila animeringar för en förbättrad användarupplevelse.
