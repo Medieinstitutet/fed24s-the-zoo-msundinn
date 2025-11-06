@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\hooks\useAnimals.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg VG med korrekt användning av routing, context API, hooks, användning av reducers, och djupgående styling med SCSS.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
 
 💡 **Förbättringsförslag:**  
-Undersök och bekräfta logiken för återställning av matstatus. Lägg till subtila animeringar för en förbättrad användarupplevelse.
+Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
