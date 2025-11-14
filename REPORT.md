@@ -70,11 +70,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Studenten har implementerat en router för att hantera olika sidor och har använt en annan teknik än ren CSS för styling. Funktionaliteten för att mata djur och hantera trasiga bildlänkar är korrekt implementerad. Dock finns det utrymme för förbättringar i kodstruktur, kodkvalitet och användning av best practices, vilket hindrar projektet från att nå VG-nivå.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyget G. Koden är strukturerad och följer etablerade konventioner för frontend-utveckling. Funktionaliteten för att visa en översiktssida och en djur-detaljsida är korrekt implementerad, inklusive hantering av trasiga bildlänkar. Styling är genomförd med en teknik utöver ren CSS. Dock saknas vissa avancerade funktioner som krävs för VG, såsom användning av context, reducers och animeringar.
 
 💡 **Förbättringsförslag:**  
-För att förbättra projektet och möjligen nå VG-nivå, bör följande åtgärder övervägas: 
-1. **Kodstruktur och Organisation**: Dela upp komponenter och tjänster i separata mappar för bättre organisation och underhåll. 
-2. **Kodkvalitet**: Förbättra kommenteringen av koden och säkerställ att naming conventions följs konsekvent. Eliminera kodupprepning genom att extrahera gemensam logik till hjälpfunktioner eller komponenter. 
-3. **Best Practices för Frontend**: Implementera säkerhetsåtgärder som att validera och sanera data från API:et. Förbättra prestandan genom att optimera komponenternas rendering och använda lazy loading där det är möjligt. 
-4. **VG-krav**: Implementera användning av context API och reducers för state management, samt subtila animeringar vid användarinteraktioner. Använd en custom hook eller tjänst för datainhämtning och säkerställ att matningslogiken nollställs korrekt vid navigering.
+För att uppnå VG-nivå bör studenten implementera datahämtning med hjälp av tjänster eller en custom hook. Användning av context för komponentkommunikation istället för props och reducers för djurhantering istället för state är också nödvändigt. Matningslogiken bör nollställas korrekt vid återgång till djur-sidan. Användning av subtila animeringar vid interaktioner och sidladdningar skulle förbättra användarupplevelsen. Förbättrad felhantering och minskad kodupprepning skulle också höja kodkvaliteten.
