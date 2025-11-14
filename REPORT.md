@@ -70,7 +70,11 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G enligt uppgiften. Koden är strukturerad och implementerar de nödvändiga funktionerna som beskrivs, inklusive routing, djuröversikt och djurdetaljsidor. Felhantering för trasiga bilder är implementerad och styling sker med en annan teknik än ren CSS. För att nå VG-nivå saknas implementation av context API, reducers och subtila animeringar.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Studenten har implementerat en router för att hantera olika sidor och har använt en annan teknik än ren CSS för styling. Funktionaliteten för att mata djur och hantera trasiga bildlänkar är korrekt implementerad. Dock finns det utrymme för förbättringar i kodstruktur, kodkvalitet och användning av best practices, vilket hindrar projektet från att nå VG-nivå.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå bör studenten implementera context API för komponentkommunikation och använda reducers för djurhantering. Dessutom kan subtila animeringar läggas till för att förbättra användarupplevelsen. Kodkvaliteten kan förbättras genom att minska upprepningar och förbättra felhanteringen, särskilt vid API-anrop. Exempel på hur context API och reducers kan implementeras skulle också vara till hjälp för att guida studenten.
+För att förbättra projektet och möjligen nå VG-nivå, bör följande åtgärder övervägas: 
+1. **Kodstruktur och Organisation**: Dela upp komponenter och tjänster i separata mappar för bättre organisation och underhåll. 
+2. **Kodkvalitet**: Förbättra kommenteringen av koden och säkerställ att naming conventions följs konsekvent. Eliminera kodupprepning genom att extrahera gemensam logik till hjälpfunktioner eller komponenter. 
+3. **Best Practices för Frontend**: Implementera säkerhetsåtgärder som att validera och sanera data från API:et. Förbättra prestandan genom att optimera komponenternas rendering och använda lazy loading där det är möjligt. 
+4. **VG-krav**: Implementera användning av context API och reducers för state management, samt subtila animeringar vid användarinteraktioner. Använd en custom hook eller tjänst för datainhämtning och säkerställ att matningslogiken nollställs korrekt vid navigering.
