@@ -66,11 +66,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\hooks\useAnimals.ts - no-console - Unexpected console statement.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
+- /app/repos/fed24s-the-zoo-msundinn/src/hooks/useAnimals.ts - no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-msundinn/src/reducers/animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyget G. Koden är strukturerad och följer etablerade konventioner för frontend-utveckling. Funktionaliteten för att visa en översiktssida och en djur-detaljsida är korrekt implementerad, inklusive hantering av trasiga bildlänkar. Styling är genomförd med en teknik utöver ren CSS. Dock saknas vissa avancerade funktioner som krävs för VG, såsom användning av context, reducers och animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Det finns en korrekt användning av router för att visa olika sidor, inklusive en översiktssida för djuren där användaren kan klicka på ett djur för att se mer information. Felhantering för trasiga bildlänkar är implementerad, och det finns en funktion för att mata djuren och spara tiden. Styling är implementerad med en annan teknik än ren CSS, vilket uppfyller kraven. För att nå VG-nivå saknas dock implementering av context för komponentkommunikation, användning av reducers för djurhantering, och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att uppnå VG-nivå bör studenten implementera datahämtning med hjälp av tjänster eller en custom hook. Användning av context för komponentkommunikation istället för props och reducers för djurhantering istället för state är också nödvändigt. Matningslogiken bör nollställas korrekt vid återgång till djur-sidan. Användning av subtila animeringar vid interaktioner och sidladdningar skulle förbättra användarupplevelsen. Förbättrad felhantering och minskad kodupprepning skulle också höja kodkvaliteten.
+För att förbättra och nå VG-nivå kan projektet implementera context för att hantera globalt tillstånd och reducers för mer komplex tillståndshantering. Dessutom bör data hämtas med hjälp av tjänster eller en custom hook. Lägg till subtila animeringar för att förbättra användarupplevelsen vid interaktioner och sidladdningar. Förbättra också kodens läsbarhet med fler kommentarer och säkerställ att naming conventions följs konsekvent. Identifiera och extrahera upprepad kod till återanvändbara komponenter eller funktioner för att minska redundans.
