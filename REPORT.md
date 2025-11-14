@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-msundinn
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,13 +65,12 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\hooks\useAnimals.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-msundinn\src\reducers\animalsReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'INIT' is defined but never used.
 
-## 🏆 **Betyg: IG**
-📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G enligt uppgiften. Koden är strukturerad och implementerar de nödvändiga funktionerna som beskrivs, inklusive routing, djuröversikt och djurdetaljsidor. Felhantering för trasiga bilder är implementerad och styling sker med en annan teknik än ren CSS. För att nå VG-nivå saknas implementation av context API, reducers och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
+För att nå VG-nivå bör studenten implementera context API för komponentkommunikation och använda reducers för djurhantering. Dessutom kan subtila animeringar läggas till för att förbättra användarupplevelsen. Kodkvaliteten kan förbättras genom att minska upprepningar och förbättra felhanteringen, särskilt vid API-anrop. Exempel på hur context API och reducers kan implementeras skulle också vara till hjälp för att guida studenten.
